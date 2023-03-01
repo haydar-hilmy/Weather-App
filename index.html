@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a502a8bc22.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="cloudy.png" type="image/x-icon">
+  <title>Weather App - Info Prakiraan Cuaca</title>
+</head>
+
+<body>
+
+  <div class="myfield">
+    <div class="mycontainer">
+      <div class="myform">
+        <input type="text" class="search-input" placeholder="Enter Location" id="search-input">
+        <button class="search-button" id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="subcontainer">
+
+        <h6 id="loadtxt"></h6>
+
+        <h4 class="mytitle" id="show-title-weather">Berawan</h4>
+        <h3 class="txt404">404</h3>
+        <h6 class="sub-title" id="show-region"><i class="fa-solid fa-location-dot"></i> Kendal, Indonesia</h6>
+
+        <!-- icon weather -->
+        <img src="cloudy.png" alt="weather icon" id="weather-icon" class="weather-icon">
+
+        <h4 class="mytitle" id="show-desc-weather">Thunderstorm With Light Rain</h4>
+
+        <div class="myinfo">
+          <h3 class="title-info" id="show-temperature">19&deg;C</h3>
+          <h5 class="desc-info">Temperatur</h5>
+        </div>
+
+        <div class="myinfo-wrap">
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-humidity">94%</h3>
+            <h5 class="desc-info">Kelembapan</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-feelsLike">20&deg;C</h3>
+            <h5 class="desc-info">Terasa Seperti</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-temp-min">30&deg;</h3>
+            <h5 class="desc-info">Temperatur Min</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-temp-max">32&deg;</h3>
+            <h5 class="desc-info">Temperatur Maks</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-windSpeed">15m/s</h3>
+            <h5 class="desc-info">Kec. Angin</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-pressure">30hPa</h3>
+            <h5 class="desc-info">Tekanan</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-windDegree">350&deg;</h3>
+            <h5 class="desc-info">Arah Angin</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-cloudsAll">100%</h3>
+            <h5 class="desc-info">Mendung</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-longitude">1029128</h3>
+            <h5 class="desc-info">Longitude</h5>
+          </div>
+
+          <div class="myinfo">
+            <h3 class="sub-title-info" id="show-latitude">101010</h3>
+            <h5 class="desc-info">Latitude</h5>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+      <h6 class="mycredit">Powered by <a style="text-decoration: underline;color: #fff;" href="https://openweathermap.org/">openweather.org</a></h6>
+      <h6 class="mycredit">Developed by Haydar Hilmy</h6>
+
+    </div>
+  </div>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

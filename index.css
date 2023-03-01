@@ -1,0 +1,206 @@
+html,
+    body {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #8BF5FA;
+      margin: 0;
+    }
+
+    .myfield {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .mycontainer {
+      display: flex;
+      width: 100%;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      background-color: #8EA7E9;
+    }
+
+    .myform {
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+      flex-direction: row;
+      margin: 30px 0;
+    }
+
+    .search-input {
+      width: 100%;
+      margin: 0;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: 0.1em;
+      font-size: 1.3rem;
+      color: #B6EADA;
+      background: none;
+      outline: none;
+      border: none;
+      transition-duration: 200ms;
+    }
+
+    .search-input::placeholder {
+      color: #B6EADA;
+      transition-duration: 100ms;
+    }
+
+    .search-input:focus::placeholder {
+      color: #fff;
+      transition-duration: 100ms;
+    }
+
+    .search-input:focus,
+    .search-button:focus {
+      color: #fff;
+      transition-duration: 100ms;
+    }
+
+    .search-input:hover,
+    .search-input:hover::placeholder,
+    .search-button:hover {
+      color: #fff;
+      transition-duration: 200ms;
+    }
+
+    .search-button {
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 10px;
+      background: none;
+      color: #B6EADA;
+      outline: none;
+      border: none;
+      transition-duration: 200ms;
+    }
+
+    .subcontainer {
+      display: flex;
+      width: 85%;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(242.51deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.3) 100%);
+      border-radius: 20px;
+      padding: 50px 0;
+      margin: 0 0 50px 0;
+    }
+
+    .mytitle {
+      color: #fff;
+      font-weight: 600;
+      font-style: normal;
+      font-family: 'Inter', sans-serif;
+      letter-spacing: 0.1em;
+      margin: 0 35px 5px 35px;
+      text-transform: capitalize;
+      text-align: center;
+      word-break: normal;
+    }
+
+    .sub-title {
+      color: #fff;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      margin: 5px 0 15px 0;
+      text-transform: capitalize;
+    }
+
+    .weather-icon {
+      width: 65px;
+      height: auto;
+      margin: 20px 0 20px 0;
+    }
+
+    .myinfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #fff;
+      margin: 0;
+    }
+
+    .myinfo-wrap {
+      display: grid;
+      width: 100%;
+      justify-content: center;
+      justify-items: center;
+      grid-template-columns: auto auto;
+      grid-gap: 40px;
+      flex-wrap: nowrap;
+      margin: 40px 0;
+    }
+
+    .title-info {
+      font-size: 3.3rem;
+      font-weight: 600;
+      color: inherit;
+      font-style: normal;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      letter-spacing: 0;
+    }
+
+    .desc-info {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: inherit;
+      font-style: normal;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      letter-spacing: 0.1em;
+      word-break: normal;
+      text-align: center;
+    }
+
+    .sub-title-info {
+      font-size: 2rem;
+      font-weight: 600;
+      color: inherit;
+      font-style: normal;
+      font-family: 'Inter', sans-serif;
+      letter-spacing: 0;
+      margin: 0;
+    }
+
+    .mycredit{
+        color: #fff;
+        font-weight: lighter;
+    }
+    .txt404{
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 600;
+    }
+
+
+
+    @media (min-width: 576px) {
+      .mycontainer {
+        width: 100%;
+      }
+    }
+
+    @media (min-width: 668px) {
+      .mycontainer {
+        width: 525px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .mycontainer {
+        width: 525px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .mycontainer {
+        width: 525px;
+      }
+    }
